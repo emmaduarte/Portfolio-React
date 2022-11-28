@@ -12,7 +12,7 @@ const App = () => {
   return (
     
       
-      <BrowserRouter>
+      <BrowserRouter basename='/Portfolio-React'>
         <Nav/>
         <Routes>
           <Route path='/Portfolio-React' exact element={<Header/>}/>
