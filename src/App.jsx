@@ -6,7 +6,7 @@ import Experiencia from './componentes/experiencia/Experiencia'
 import Porfolio from './componentes/portfolio/Portfolio'
 import Contacto from './componentes/contacto/Contacto'
 import Footer from './componentes/footer/Footer'
-import {BrowserRouter, BrowserRouter as Router, Route, Routes} from "react-router-dom"
+import {BrowserRouter, BrowserRouter as Router, Route, Routes, Switch} from "react-router-dom"
 
 const App = () => {
   return (
