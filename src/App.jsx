@@ -12,7 +12,7 @@ const App = () => {
   return (
     
       
-      <HashRouter>
+      <BrowserRouter>
         <Nav/>
         <Routes>
           <Route path='/Portfolio-React' exact element={<Header/>}/>
@@ -23,7 +23,7 @@ const App = () => {
 
         </Routes>
         <Footer/>
-      </HashRouter>
+      </BrowserRouter>
 
   
   )
