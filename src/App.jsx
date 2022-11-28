@@ -6,13 +6,13 @@ import Experiencia from './componentes/experiencia/Experiencia'
 import Porfolio from './componentes/portfolio/Portfolio'
 import Contacto from './componentes/contacto/Contacto'
 import Footer from './componentes/footer/Footer'
-import {BrowserRouter, BrowserRouter as Router, Route, Routes} from "react-router-dom"
+import {BrowserRouter, Router, Route, Routes, HashRouter} from "react-router-dom"
 
 const App = () => {
   return (
     
       
-      <BrowserRouter>
+      <HashRouter>
         <Nav/>
         <Routes>
           <Route path='/Portfolio-React' exact element={<Header/>}/>
@@ -23,7 +23,7 @@ const App = () => {
 
         </Routes>
         <Footer/>
-      </BrowserRouter>
+      </HashRouter>
 
   
   )
