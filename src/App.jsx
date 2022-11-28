@@ -10,9 +10,9 @@ import {BrowserRouter, Router, Route, Routes, HashRouter} from "react-router-dom
 
 const App = () => {
   return (
-    <>
+    
       
-      
+      <HashRouter>
         <Nav/>
         <Routes>
           <Route path='/Portfolio-React' exact element={<Header/>}/>
@@ -23,8 +23,8 @@ const App = () => {
 
         </Routes>
         <Footer/>
-      
-        </>
+      </HashRouter>
+
   
   )
 }
