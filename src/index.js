@@ -6,7 +6,7 @@ import './index.css'
 
 ReactDom.render(
     <React.StrictMode>
-        <HashRouter>
+        
             <App/>
-        </HashRouter>
+        
     </React.StrictMode>, document.querySelector("#root"))
