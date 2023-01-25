@@ -4,8 +4,10 @@ import Yo from '../../archivos/yo2.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import {useNavigate} from "react-router-dom";
 
-const about = () => {
+const About = () => {
+  const navigate = useNavigate();
   return (
     <section id='sobreMi'>
       <h5>Lo que debes saber</h5>
@@ -48,7 +50,7 @@ const about = () => {
             pudiendo aportar todos mis conocimientos y totalmente dispuesto a aprender lo que haga falta para poder desarrolar la tarea y dar mi aporte a la empresa.
           </p>
 
-          <a href="/Contacto" className='btn btn-primary'>Contactame</a>
+          <a href=""  onClick={() => navigate(`/Contacto`)} className='btn btn-primary'>Contactame</a>
 
         </div>
       </div>
@@ -56,4 +58,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About

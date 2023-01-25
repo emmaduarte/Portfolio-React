@@ -13,9 +13,10 @@ const App = () => {
     
       
       <>
+      <BrowserRouter>
         <Nav/>
         <Routes>
-          <Route path='/' exact element={<Header/>}/>
+          <Route path='/' element={<Header/>}/>
           <Route path='/SobreMi' exact element={<SobreMi/>}/>
           <Route path='/Experiencia' exact element={<Experiencia/>}/>
           <Route path='/Portfolio' exact element={<Porfolio/>}/>
@@ -23,6 +24,7 @@ const App = () => {
 
         </Routes>
         <Footer/>
+      </BrowserRouter>
       </>
 
   

@@ -5,16 +5,17 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {BiBook} from 'react-icons/bi'
 import {RiServiceLine} from 'react-icons/ri'
 import {BiMessageSquareDetail} from 'react-icons/bi'
+import {useNavigate} from "react-router-dom";
 
 const Nav = () => {
-  
+  const navigate = useNavigate();
   return (
     <nav>
-      <a href="/" ><AiOutlineHome/></a>
-      <a href="/SobreMi" ><AiOutlineUser/></a>
-      <a href="/Experiencia" ><BiBook/></a>
-      <a href="/Portfolio"><RiServiceLine/></a>
-      <a href="/Contacto" ><BiMessageSquareDetail/></a>
+      <a href="" onClick={() => navigate(`/`)}> <AiOutlineHome/></a>
+      <a href="" onClick={() => navigate(`/SobreMi`)}><AiOutlineUser/></a>
+      <a href="" onClick={() => navigate(`/Experiencia`)}><BiBook/></a>
+      <a href="" onClick={() => navigate(`/Portfolio`)}><RiServiceLine/></a>
+      <a href="" onClick={() => navigate(`/Contacto`)}><BiMessageSquareDetail/></a>
     </nav>
   )
 }

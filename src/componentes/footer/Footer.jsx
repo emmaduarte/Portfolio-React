@@ -2,16 +2,18 @@ import React from 'react'
 import './footer.css'
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
+import {useNavigate} from "react-router-dom";
 
 const Footer = () => {
+  const navigate = useNavigate();
   return (
     <footer>
       <ul className='lista'>
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/Sobremi">Sobre Mi</a></li>
-        <li><a href="/Experiencia">Experiencia</a></li>
-        <li><a href="/Portfolio">Portfolio</a></li>
-        <li><a href="/Contacto">Contacto</a></li>
+        <li><a href="" onClick={() => navigate(`/`)}>Inicio</a></li>
+        <li><a href="" onClick={() => navigate(`/Sobremi`)}>Sobre Mi</a></li>
+        <li><a href="" onClick={() => navigate(`/Experiencia`)}>Experiencia</a></li>
+        <li><a href="" onClick={() => navigate(`/Portfolio`)}>Portfolio</a></li>
+        <li><a href="" onClick={() => navigate(`/Contacto`)}>Contacto</a></li>
       </ul>
 
       <div className="footer__sociales">
