@@ -2,6 +2,7 @@ import React from 'react'
 import './porfolio.css'
 import calculadora from '../../archivos/calculadora 2.jpg'
 import movie from '../../archivos/movieplus.jpg'
+import naturel from '../../archivos/naturel.png'
 
 const Portfolio = () => {
   return (
@@ -28,6 +29,18 @@ const Portfolio = () => {
           <div className="portfolio_item-cta">
             <a href="https://github.com/emmaduarte/Calculadora" className='btn'>Github</a>
             <a href="https://emmaduarte.github.io/Calculadora/" className='btn btn-primary' target='_blank'>Ver demo</a>
+          </div>
+          
+        </article>
+
+        <article className='portfolio_item'>
+          <div className="portfolio_item-image">
+            <img src={naturel} alt="Imagen del trabajo" />
+          </div>
+          <h3>Naturel Gourmet</h3>
+          <div className="portfolio_item-cta">
+            <a href="https://github.com/PietroGianniRuggeri/naturel-gourmet" className='btn'>Github</a>
+            <a href="https://naturel-gourmet.vercel.app/" className='btn btn-primary' target='_blank'>Ver demo</a>
           </div>
           
         </article>

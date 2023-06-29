@@ -17,22 +17,23 @@ import {
 const App = () => {
   return (
     <>
-      <Header />
+      {/* <Header />
       <SobreMi />
       <Experiencia />
       <Porfolio />
       <Contacto />
-      {/* <BrowserRouter>
+      <Footer /> */}
+      <BrowserRouter>
         <Nav />
         <Routes>
-          <Route path="/" element={<Header />} />
-          <Route path="/SobreMi" exact element={<SobreMi />} />
-          <Route path="/Experiencia" exact element={<Experiencia />} />
-          <Route path="/Portfolio" exact element={<Porfolio />} />
-          <Route path="/Contacto" exact element={<Contacto />} />
+          <Route exact path="/" element={<Header />} />
+          <Route exact path="/SobreMi"  element={<SobreMi />} />
+          <Route exact path="/Experiencia"  element={<Experiencia />} />
+          <Route exact path="/Portfolio"  element={<Porfolio />} />
+          <Route exact path="/Contacto"  element={<Contacto />} />
         </Routes>
         <Footer />
-      </BrowserRouter> */}
+      </BrowserRouter>
     </>
   );
 };
