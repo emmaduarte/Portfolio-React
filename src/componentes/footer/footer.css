@@ -19,6 +19,10 @@ footer a{
     margin: 0 auto 3rem;
 }
 
+.lista li{
+    cursor: pointer;
+}
+
 .footer__sociales{
     display: flex;
     justify-content: center;

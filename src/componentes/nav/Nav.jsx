@@ -11,11 +11,11 @@ const Nav = () => {
   const navigate = useNavigate();
   return (
     <nav>
-      <a href="" onClick={() => navigate(`/`)}> <AiOutlineHome/></a>
-      <a href="" onClick={() => navigate(`/SobreMi`)}><AiOutlineUser/></a>
-      <a href="" onClick={() => navigate(`/Experiencia`)}><BiBook/></a>
-      <a href="" onClick={() => navigate(`/Portfolio`)}><RiServiceLine/></a>
-      <a href="" onClick={() => navigate(`/Contacto`)}><BiMessageSquareDetail/></a>
+      <li onClick={() => navigate(`/`)}> <AiOutlineHome/></li>
+      <li onClick={() => navigate(`/SobreMi`)}> <AiOutlineUser/></li>
+      <li onClick={() => navigate(`/Experiencia`)}> <BiBook/></li>
+      <li onClick={() => navigate(`/Portfolio`)}> <RiServiceLine/></li>
+      <li onClick={() => navigate(`/Contacto`)}> <BiMessageSquareDetail/></li>
     </nav>
   )
 }

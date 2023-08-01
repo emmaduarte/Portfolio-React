@@ -9,11 +9,11 @@ const Footer = () => {
   return (
     <footer>
       <ul className='lista'>
-        <li><a href="" onClick={() => navigate(`/`)}>Inicio</a></li>
-        <li><a href="" onClick={() => navigate(`/Sobremi`)}>Sobre Mi</a></li>
-        <li><a href="" onClick={() => navigate(`/Experiencia`)}>Experiencia</a></li>
-        <li><a href="" onClick={() => navigate(`/Portfolio`)}>Portfolio</a></li>
-        <li><a href="" onClick={() => navigate(`/Contacto`)}>Contacto</a></li>
+        <li onClick={() => navigate(`/`)}>Inicio</li>
+        <li onClick={() => navigate(`/Sobremi`)}>Sobre Mi</li>
+        <li onClick={() => navigate(`/Experiencia`)}>Experiencia</li>
+        <li onClick={() => navigate(`/Portfolio`)}>Portfolio</li>
+        <li onClick={() => navigate(`/Contacto`)}>Contacto</li>
       </ul>
 
       <div className="footer__sociales">
