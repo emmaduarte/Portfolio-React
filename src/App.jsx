@@ -6,31 +6,19 @@ import Experiencia from "./componentes/experiencia/Experiencia";
 import Porfolio from "./componentes/portfolio/Portfolio";
 import Contacto from "./componentes/contacto/Contacto";
 import Footer from "./componentes/footer/Footer";
-import {
-  BrowserRouter,
-  Router,
-  Route,
-  Routes,
-  HashRouter,
-} from "react-router-dom";
+import {BrowserRouter, Route, Routes,} from "react-router-dom";
 
 const App = () => {
   return (
     <>
-      {/* <Header />
-      <SobreMi />
-      <Experiencia />
-      <Porfolio />
-      <Contacto />
-      <Footer /> */}
-      <BrowserRouter>
+      <BrowserRouter basename="Portfolio-React">
         <Nav />
         <Routes>
-          <Route exact path="/" element={<Header />} />
-          <Route exact path="/SobreMi"  element={<SobreMi />} />
-          <Route exact path="/Experiencia"  element={<Experiencia />} />
-          <Route exact path="/Portfolio"  element={<Porfolio />} />
-          <Route exact path="/Contacto"  element={<Contacto />} />
+          <Route path="/" element={<Header />} />
+          <Route path="/SobreMi"  element={<SobreMi />} />
+          <Route path="/Experiencia"  element={<Experiencia />} />
+          <Route path="/Portfolio"  element={<Porfolio />} />
+          <Route path="/Contacto"  element={<Contacto />} />
         </Routes>
         <Footer />
       </BrowserRouter>

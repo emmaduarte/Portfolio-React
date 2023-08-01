@@ -14,10 +14,10 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={movie} alt="Imagen del trabajo" />
           </div>
-          <h3>Movie-Plus</h3>
+          <h3>Movies</h3>
           <div className="portfolio_item-cta">
-            <a href="https://github.com/emmaduarte/movie-plus" className='btn'>Github</a>
-            <a href="https://emmaduarte.github.io/movie-plus/" className='btn btn-primary' target='_blank'>Ver demo</a>
+            <a href="https://github.com/emmaduarte/movies" className='btn'>Github</a>
+            <a href="https://emmaduarte.github.io/movies/" className='btn btn-primary' target='_blank'>Ver demo</a>
           </div>
           
         </article>
