@@ -1,3 +1,7 @@
+#experiencia{
+    height: auto;
+}
+
 .experiencia_container{
     display: grid;
     grid-template-columns: 1fr;

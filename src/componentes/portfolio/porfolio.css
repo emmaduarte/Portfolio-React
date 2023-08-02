@@ -1,3 +1,7 @@
+#portfolio{
+    height: auto;
+}
+
 .portfolio_container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

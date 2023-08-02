@@ -1,7 +1,12 @@
+#sobreMi{
+    height: auto;
+}
+
 .sobremi__container{
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    margin: 40px auto !important;
 }
 
 .sobre__mi{

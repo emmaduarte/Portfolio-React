@@ -1,13 +1,13 @@
 header{
     padding-top: 7rem;
     overflow: hidden;
+    height: auto;
 }
 
 .header__container{
-    height: 900px;
+    height: auto;
     margin-top: 8rem !important;
     text-align: center;
-    position: relative;
 }
 
 /*--------------- CTA ----------------*/
@@ -25,7 +25,6 @@ header{
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
     bottom: 3rem;
 }
 
