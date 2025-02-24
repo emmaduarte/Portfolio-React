@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.13e64c4e.css",
-    "main.js": "/Portfolio-React/static/js/main.cb385f53.js",
-    "static/media/yo.png": "/Portfolio-React/static/media/yo.462f9167e0dff10bd734.png",
-    "static/media/yo2.jpg": "/Portfolio-React/static/media/yo2.db6994e32f79da96923e.jpg",
+    "main.css": "/Portfolio-React/static/css/main.d83cd9a6.css",
+    "main.js": "/Portfolio-React/static/js/main.2b886995.js",
+    "static/media/yo.png": "/Portfolio-React/static/media/yo.b05340c41bdaad8b49d6.png",
+    "static/media/yo2.png": "/Portfolio-React/static/media/yo2.92833e0a43e52f8b3b59.png",
     "static/media/naturel.png": "/Portfolio-React/static/media/naturel.e656b81b2db1360faf4e.png",
     "static/media/movieplus.jpg": "/Portfolio-React/static/media/movieplus.0c407ad34d6fe0593db1.jpg",
     "static/media/cv.pdf": "/Portfolio-React/static/media/cv.26ed3d9270d707f2e600.pdf",
     "static/media/calculadora 2.jpg": "/Portfolio-React/static/media/calculadora 2.bd9e63eddd1ce01b044d.jpg",
     "index.html": "/Portfolio-React/index.html",
-    "main.13e64c4e.css.map": "/Portfolio-React/static/css/main.13e64c4e.css.map",
-    "main.cb385f53.js.map": "/Portfolio-React/static/js/main.cb385f53.js.map"
+    "main.d83cd9a6.css.map": "/Portfolio-React/static/css/main.d83cd9a6.css.map",
+    "main.2b886995.js.map": "/Portfolio-React/static/js/main.2b886995.js.map"
   },
   "entrypoints": [
-    "static/css/main.13e64c4e.css",
-    "static/js/main.cb385f53.js"
+    "static/css/main.d83cd9a6.css",
+    "static/js/main.2b886995.js"
   ]
 }
