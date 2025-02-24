@@ -43,14 +43,14 @@ const Experiencia = () => {
               <BsPatchCheckFill className='experiencia_detalles-icon'/>
               <div>
                 <h4>Material UI</h4>
-                <small className='text-light'>Basico</small>
+                <small className='text-light'>Intermedio</small>
               </div>
             </article>
             <article className='experiencia_detalles'>
               <BsPatchCheckFill className='experiencia_detalles-icon'/>
               <div>
                 <h4>React</h4>
-                <small className='text-light'>Basico</small>
+                <small className='text-light'>Intermedio</small>
               </div>
             </article>
           </div>

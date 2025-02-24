@@ -1,6 +1,6 @@
 import React from 'react'
 import './SobreMi.css'
-import Yo from '../../archivos/yo2.jpg'
+import Yo from '../../archivos/yo2.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'

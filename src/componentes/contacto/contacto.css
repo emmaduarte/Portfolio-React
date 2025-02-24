@@ -4,7 +4,7 @@
 
 
 .container.contacto_container{
-    width: 58%;
+    width: 75%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
